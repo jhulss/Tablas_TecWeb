@@ -5,19 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table th, table td{
+            border: 1px solid green;
+        }
+    </style>
+
 </head>
 <body>
     <table>
-    <caption>Rendimiento del alumno</caption>
+        <caption>Rendimiento de los alumno</caption>
         <thead>
             <tr>
-                <th>Nombre</th>
-                <th>Carrera</th>
-                <th>Rendimineto</th>
+                <th scope="col" colspan="1" rowspan="2">Nombre</th>
+                <th scope="col" colspan="2" rowspan="1">A</th>
+                
+            </tr>
+            <tr>
+                <th scope="col">B</th>
+                <th scope="col">C</th>
             </tr>
         </thead>
+        <tbody>
+            <tr>
+                <td>Jaime</td>
+                <td>Sistemas</td>
+                <td>Muy pobre</td>
+            </tr>
+            <tr>
+                <td>Fabio</td>
+                <td>Sistemas</td>
+                <td>Regular +</td>
+            </tr>
+        
+        </tbody>
+        <tfoot></tfoot>
     </table>
-
-
 </body>
 </html>
