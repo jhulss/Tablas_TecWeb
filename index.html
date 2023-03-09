@@ -6,8 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        table th, table td{
+            table th, table td{
             border: 1px solid green;
+        }
+        tfoot{
+            background-color: orange;
+        }
+        thead{
+          background-color: blue;  
+          color: white;
         }
     </style>
 
@@ -37,9 +44,68 @@
                 <td>Sistemas</td>
                 <td>Regular +</td>
             </tr>
-        
         </tbody>
-        <tfoot></tfoot>
     </table>
+
+    <table>
+        <caption>Rendimiento de los alumno</caption>
+        <thead>
+            <tr>
+                <td colspan="2">A</td>
+                <td colspan="2">D</td>
+              </tr>
+              <tr>
+                <td>B</td>
+                <td>C</td>
+                <td>E</td>
+                <td>F</td>
+              </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">d1</td>
+                <td>d2</td>
+                <td rowspan="2">d4</td>
+                <td>d5</td>
+            </tr>
+            <tr>
+                <td>d3</td>
+                <td>d6</td>
+            </tr>
+            <tr>
+                <td rowspan="2">d7</td>
+                <td>d8</td>
+                <td rowspan="2">d10</td>
+                <td>d9</td>
+            </tr>
+            <tr>
+                <td>d11</td>
+                <td>d12</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">TOTAL</td>
+                <td>100</td>
+            </tr>
+        </tfoot>
+    </table>
+    <a href="Paginas/contacto.html"> PAGINA PRINCIPAL </a>
+    <br>
+    <a href="Paginas/test.html" target="_blank"> EN OTRA PESTAÑA </a>
+
+    <a href="#ultimo">Ir al final</a>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugit quisquam mollitia, atque laborum alias maiores veritatis sequi sunt eveniet. Maxime labore porro, ea voluptate repudiandae tempore velit inventore mollitia.</P>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugit quisquam mollitia, atque laborum alias maiores veritatis sequi sunt eveniet. Maxime labore porro, ea voluptate repudiandae tempore velit inventore mollitia.</P>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugit quisquam mollitia, atque laborum alias maiores veritatis sequi sunt eveniet. Maxime labore porro, ea voluptate repudiandae tempore velit inventore mollitia.</P>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugit quisquam mollitia, atque laborum alias maiores veritatis sequi sunt eveniet. Maxime labore porro, ea voluptate repudiandae tempore velit inventore mollitia.</P>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugit quisquam mollitia, atque laborum alias maiores veritatis sequi sunt eveniet. Maxime labore porro, ea voluptate repudiandae tempore velit inventore mollitia.</P>
+    <p id="ultimo">Ultimo parrafo</p>
+    <a href="#top">Arriba</a>
+
+    <a href="mailto:fbeltran@ucb.edu.bo">Puedes escribirme</a>
+    <a href="tel:+1(555)5309">(555) 5309</a>
+
+
 </body>
 </html>
